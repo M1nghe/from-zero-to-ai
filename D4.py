@@ -1,14 +1,12 @@
-# def is_prime(n):
-#     if n > 1 :
-#         for i in range(2,n):
-#             if n % i != 0 & n != i^2:
-#                 return True
-#             else:
-#                 return False
-#     else:
-#         return False
+def is_prime(n):
+   if n <=1:
+      return False
+   for i in range(2,n):
+      if n % i == 0:
+         return False
+   return True
 
-# print(is_prime(9))
+print(is_prime(9))
 
 # def reverse_str(s):
 #     new_s=''
@@ -18,14 +16,14 @@
 
 # print(reverse_str("My name"))
 
-def dedupe(lst):
-    result = []
-    for ch in lst:
-        if ch not in result:
-            result.append(ch)
-    return result
+# def dedupe(lst):
+#     result = []
+#     for ch in lst:
+#         if ch not in result:
+#             result.append(ch)
+#     return result
 
-print(dedupe([1, 2, 2, 3, 3, 3, 4]))
+# print(dedupe([1, 2, 2, 3, 3, 3, 4]))
 
 #  类型: str
 #   是什么: 一串字符，不可变

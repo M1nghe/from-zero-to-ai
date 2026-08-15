@@ -32,12 +32,12 @@ print(new_list)
 """
 
 #Pra3
-list = [85,92,78,95,88,76,90]
+lst = [85,92,78,95,88,76,90]
 """sum=0
 for i in list:
     sum = i + sum"""
-total_score = sum(list)
-print(total_score/len(list))
+total_score = sum(lst)
+print(total_score/len(lst))
       
 
 
