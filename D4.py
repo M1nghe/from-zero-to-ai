@@ -6,7 +6,7 @@ def is_prime(n):
          return False
    return True
 
-print(is_prime(9))
+print(is_prime(10))
 
 # def reverse_str(s):
 #     new_s=''
